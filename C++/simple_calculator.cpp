@@ -14,12 +14,12 @@ double subtraction(int num1, int num2){
     return sum;
 }
 //Returns the multiplication of two numbers
-double multiplication(int num1, int num2){
+double multiplication(double num1, double num2){
     double sum = num1 * num2;
     return sum;
 }
 //Returns the division of two numbers
-double division(int num1, int num2){
+double division(double num1, double num2){ //Fix this so we can double results instead of int results
     if(num2 == 0){
         throw std::runtime_error("ERROR:DIVISION BY ZERO!\n");
     }
